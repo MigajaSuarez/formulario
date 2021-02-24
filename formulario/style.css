@@ -1,0 +1,54 @@
+body{
+background-image:url('https://scontent.fbog16-2.fna.fbcdn.net/v/t1.0-9/11892111_856932457735377_493562124191388275_n.jpg?_nc_cat=101&ccb=3&_nc_sid=cdbe9c&_nc_ohc=xb-WL6puMisAX_VZBkm&_nc_ht=scontent.fbog16-2.fna&oh=ccd49f8632f3a9d1344197370b30cfc3&oe=605AE494');
+background-repeat: repeat;
+background-size:fixed;
+background-size:contain;
+background-color: rgb(118, 170, 119);
+font-family: Helvetica;
+}
+.container{
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding: 3vw;
+  background-color: hsla(231, 3%, 100%, 0.9);
+  text-align: justify;
+}
+
+form{
+
+
+}
+h4{
+
+
+}
+textarea{
+  width: 100%;
+}
+#img-div{
+  width: 100%;
+}
+#title{
+text-align: center;
+font-size: 3vw;
+}
+#description{
+
+}
+#survey-form{
+
+}
+#submit{
+  display: block;
+  margin: auto;
+  padding: 4px;
+  width: 40%;
+background-color: green;
+color: white;
+
+}
+#sugerencias{
+  margin: auto;
+
+}

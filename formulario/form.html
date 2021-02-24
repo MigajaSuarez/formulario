@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi escalada</title>
+  </head>
+  <body>
+  <div class="container">
+    <h1 id="title">Encuesta de conocimientos de escalada</h1>
+    <!-- s2-->
+    <p id="description">Queremos conocer la experiencia, vivencias y conocimientos de nuestra comunidad escaladora, para poder ofrecer capacitaciones mas acordes a las necesidades de todos nosotros. Agradecemos tu tiempo.</p>
+
+    <h4>¡Juntos haremos mas segura nuestra pasión!</h4>
+
+    <!-- s3-->
+    <form id="survey-form">
+      <!-- s4- s10- s11-->
+      <label id="name-label" for="name">Nombre</label><br>
+      <input  type="text" name="name" id="name" placeholder="Nombre" required=""><br>
+      <!-- s5 y s6 -s10-s11-->
+      <label id="email-label" for="email">email</label><br>
+      <input type="email" name="email" id="email" placeholder="escalador@email.com" required=""><br>
+      <!-- s7 - s8 y s9  que el numero sea valido entre un min y max- s10 -s11-->
+      <label id="number-label" for="number">Edad</label><br>
+      <input type="number" name="edad" id="number" placeholder="Edad" min="1" max="100" required="">
+      <!--dropdown s12-->
+      <h3>Años de experiencia</h3>
+      <select id="dropdown" name="a-experiencia" >
+        <option value="value1">0-1 años</option>
+        <option value="value1">1-3 años</option>
+        <option value="value1">3-5 años</option>
+        <option value="value1">+ de 5 años</option>
+      </select>
+
+      <br>
+      <!-- s13-->
+      <h3>¿Donde iniciaste en la escalada?</h3>
+      <label for="muro">
+        <input id="muro" type="radio" name="inicio-escalada" value="0">En un muro libre.
+      </label><br>
+      <label for="gym">
+        <input id="gym" type="radio" name="inicio-escalada" value="1">En un muro de un gimnasio/colegio/universidad.
+      </label><br>
+      <label for="roca">
+        <input id="roca" type="radio" name="inicio-escalada" value="2">En la roca (boulder/deportiva).
+      </label><br>
+      <label for="montana">
+        <input id="montana" type="radio" name="inicio-escalada" value="3">Como parte del montañismo.
+      </label>
+
+      <br>
+      <h3>¿Que tipos de escalada practicas?</h3>
+      <!-- s14-->
+      <label for="boulder">  <input id="boulder" type="checkbox" name="tipos-escalada" value="0" >Boulder.</label><br>
+
+      <label for="deportiva">  <input id="deportiva" type="checkbox" name="tipos-escalada" value="1">Deportiva.</label><br>
+
+      <label for="clasica">  <input id="clasica" type="checkbox" name="tipos-escalada" value="2">Clasica.</label><br>
+
+      <label for="alpina">  <input id="alpina" type="checkbox" name="tipos-escalada" value="3">Alpina (nieve/hielo/mixta).</label>
+      <br>
+
+      <h3>¿Como aprendiste?</h3>
+      <!-- s14-->
+      <label for="autodidacta">  <input id="autodidacta" type="checkbox" name="como-aprende" value="0">Autodidacta.</label><br>
+      <label for="amigos">  <input id="amigos" type="checkbox" name="como-aprende" value="1">Con amigos.</label><br>
+      <label for="cursos">  <input id="cursos" type="checkbox" name="como-aprende" value="2">Tomando cursos/ clases.</label><br>
+
+      <h3>¿Que temas deseas aprender?</h3>
+      <!-- s14-->
+      <label for="entrenamiento">  <input id="entrenamiento" type="checkbox" name="como-aprende"value="0">Entrenamiento.</label><br>
+      <label for="asegurar">  <input id="asegurar" type="checkbox" name="que-aprende" value="1">Asegurar.</label><br>
+      <label for="puntear">  <input id="puntear" type="checkbox" name="que-aprende" value="2">puntear</label><br>
+      <label for="sistemas">  <input id="sistemas" type="checkbox" name="que-aprende" value="3">Sistemas de seguridad y estaciones.</label><br>
+      <label for="clas">  <input id="clas" type="checkbox" name="que-aprende" value="4">Escalada Clasica</label><br>
+      <label for="alpina">  <input id="alpina" type="checkbox" name="que-aprende">Escalada Alpina</label><br>
+
+      <p>Si deseas aprender algun otro tema ó tienes una sugerencia que nos ayude a mejorar: </p>
+      <!-- s15-->
+      <label for="sugerencias"><textarea id="sugerencias"
+      name="name" rows="6" cols="60" maxlength="250" ></textarea></label>
+      <br>
+      <h2 ali="center">Gracias por tu colaboración... Te deseamos buenos pegues !!!</h2>
+      <br>
+      <!-- s16-->
+      <button id="submit" type="submit">Enviar</button>
+
+    </form>
+
+    </body>
+  </div>
+  <!-- s1-->
+  
+
+</html>
